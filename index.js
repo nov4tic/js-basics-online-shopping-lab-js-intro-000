@@ -56,3 +56,9 @@ function placeOrder(cardNumber) {
 
     // write your code here
 }
+
+let emptyOut = cart => {
+  for (let i = 0; i < cart.length; i++){
+    cart.pop()
+  }
+}
