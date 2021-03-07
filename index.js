@@ -49,7 +49,7 @@ for (let i = 0; i < cart.length; i++) {
   if (item === cart.itemName('item')){
 
   } else {
-    alert(`That item is not in your cart`)
+    return `That item is not in your cart`
   }
 }
 }
