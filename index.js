@@ -53,11 +53,13 @@ function removeFromCart(item) {
     return 'That item is not in your cart.'}
 
 function placeOrder(cardNumber) {
-
+  if (cardNumber === true) {
+    emptyOut
+  }
     // write your code here
 }
 
-let emptyOut = cart => {
+var emptyOut = cart => {
   for (let i = 0; i < cart.length; i++){
     cart.pop()
   }
