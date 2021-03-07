@@ -49,8 +49,6 @@ for (let i = 0; i < cart.length; i++) {
   if (item === getCart()[i].itemName)
   cart.splice(getCart()[i].itemName, 1)
 }
-  }
-}
 }
 
 function placeOrder(cardNumber) {
